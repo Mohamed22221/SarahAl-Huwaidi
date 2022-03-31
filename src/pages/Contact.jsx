@@ -41,7 +41,7 @@ const Contact = () => {
             <div className='content-contact'>
                 <p>
                     Phone
-                    <a href='tel:01116798122'>+02-0111-6798-122</a>
+                    <a href='tel:01116798122'>96696637</a>
                 </p>
                 
             </div>
@@ -51,8 +51,7 @@ const Contact = () => {
             <div className='content-contact' >
                 <p>
                 Email
-                    <a href='mailto:hamdymedo525@gmail.com'>hamdymedo525@gmail.com</a>
-                    <a href='mailto:hamdymohame7@gmail.com'>hamdymohame7@gmail.com</a>
+                    <a href='mailto:s1alhuwaidi@gmail.com'>s1alhuwaidi@gmail.com</a>
                 </p>
                 
             </div>
@@ -62,7 +61,7 @@ const Contact = () => {
             <div className='content-contact'>
                 <p>
                 Address
-                    <a href='https://goo.gl/maps/2EtzG7zzwzzCDRM98' target="_blank">Qalyubia /Al Qanater El Khayreya</a>
+                    <a href='https://goo.gl/maps/Bt1XoxQGqtDhYQcE7' target="_blank">الكويت محافظه الاحمدي</a>
                 </p>
                 
             </div>

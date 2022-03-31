@@ -18,13 +18,13 @@ const Home = () => {
          تطوير بيئه العمل وتحفيز نفسي دائما لبذل المزيد من العطاء والإنتاج ومساعده الاخرين وأرغب بتعلم الكثير من المهارات وأتقانها
         </div>
         <div className='icons'>
-          <a href='https://github.com/Mohamed22221?tab=repositories' target="_blank">
+          <a href='https://www.instagram.com/id.alhuwaidi/?hl=en' target="_blank">
             <InstagramIcon className='icon' />
           </a>
           <a href='https://www.linkedin.com/in/mohamed-hamdy-94b992219/' target="_blank">
             <LinkedInIcon className='icon' />
           </a>
-          <a href='https://www.upwork.com/freelancers/~016ff38454db0dfc84' target="_blank">
+          <a href='https://www.youtube.com/channel/UCoJn9fMNn6ji2xwuUQrZn0w' target="_blank">
             <YouTubeIcon className='icon' />
           </a>
 
