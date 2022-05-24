@@ -13,15 +13,15 @@ const Home = () => {
         <Particless />
       </div>
       <div className='home'>
-        <h1>  الأستاذه /<span> سارة الهويدي</span></h1>
+        <h1>  الأستاذه /<span> ساره الهويدي</span></h1>
         <div className='apout-home'>
-         تطوير بيئه العمل وتحفيز نفسي دائما لبذل المزيد من العطاء والإنتاج ومساعده الاخرين وأرغب بتعلم الكثير من المهارات وأتقانها
+        Interior Architecture Designer
         </div>
         <div className='icons'>
           <a href='https://www.instagram.com/id.alhuwaidi/?hl=en' target="_blank">
             <InstagramIcon className='icon' />
           </a>
-          <a href='https://www.linkedin.com/in/mohamed-hamdy-94b992219/' target="_blank">
+          <a href='https://www.linkedin.com/in/sara-alhuwaidi-12360323b/' target="_blank">
             <LinkedInIcon className='icon' />
           </a>
           <a href='https://www.youtube.com/channel/UCoJn9fMNn6ji2xwuUQrZn0w' target="_blank">
@@ -51,8 +51,8 @@ const MainHome = styled.div`
       @media (max-width:1100px) {
         padding: 10px;
         top:50% ;
-     left:0% ;
-     transform:translate(-1%,-50%) ;
+        left:9% ;
+     transform:translate(-4%,-50%) ;
       }
       .apout-home {
         padding:10px 0 ;
@@ -60,7 +60,7 @@ const MainHome = styled.div`
       
      }
       h1 {
-        font-size: 64px ;
+        font-size: 54px ;
         color:var(--white-color) ;
           @media (max-width:1100px) {
       

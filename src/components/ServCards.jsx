@@ -26,18 +26,25 @@ const ServCards = () => {
         </div>
         <div className='item-card'>
             <AspectRatioIcon className='icon-card' />
+            <h4>مدرب معتمد</h4>
+           
+
+        </div>
+        <div className='item-card'>
+            <AspectRatioIcon className='icon-card' />
+            <h4>تدريب مدربين</h4>
+           
+
+        </div>
+        <div className='item-card'>
+            <AspectRatioIcon className='icon-card' />
             <h4>البرامج التفاعلية للمتعلمين</h4>
         </div>
         <div className='item-card'>
             <AspectRatioIcon className='icon-card' />
-            <h4>ورش مختلفه فنون يدوية لألطفال</h4>
+            <h4>ورش مختلفه فنون يدوية </h4>
         </div>
-        <div className='item-card'>
-            <AspectRatioIcon className='icon-card' />
-            <h4>ورشة خشب برائحة الالفندر</h4>
-            
 
-        </div>
         <div className='item-card'>
             <AspectRatioIcon className='icon-card' />
             <h4> ورشه تحضيري من تصميمي</h4>
@@ -52,28 +59,12 @@ const ServCards = () => {
         </div>
         <div className='item-card'>
             <AspectRatioIcon className='icon-card' />
-            <h4>ورشة الدراسات إكسبو  عجينة البالستر الروسية  تشكيل الورد</h4>
+            <h4>ورشة  عجينة البالستر الروسية  تشكيل الورد</h4>
            
 
         </div>
-        <div className='item-card'>
-            <AspectRatioIcon className='icon-card' />
-            <h4>ورشة صناعة المرايا</h4>
-           
 
-        </div>
-        <div className='item-card'>
-            <AspectRatioIcon className='icon-card' />
-            <h4>ورشة األخشاب واستخدامها في الديكور</h4>
-           
 
-        </div>
-        <div className='item-card'>
-            <AspectRatioIcon className='icon-card' />
-            <h4>ورشة الدهان المغناطيسي</h4>
-           
-
-        </div>
         <div className='item-card'>
             <AspectRatioIcon className='icon-card' />
             <h4> تصميم ورشة إفتراضية</h4>

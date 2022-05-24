@@ -28,17 +28,17 @@ const Particless = () => {
         shape:{
           type: 'circle',
           stroke: {
-            width: 0
+            width: 3
           },
           polygon:{
-            nb_sides: 6
+            nb_sides: 25
           }
         },
         line_linked: {
           enable: false,
           distance: 150,
           opacity: 0.9,
-          width: 1,
+          width: 2,
           shadow: {
             enable: true,
             color: "#e74c3c",

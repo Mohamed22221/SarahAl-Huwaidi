@@ -20,14 +20,14 @@ const GlopalStyle = createGlobalStyle`
     --trasparent : #007bff1f
 } */
 .light-theme{
-    --primary-color: #007bff;
-    --primary-color-light: #057FFF;
+    --primary-color: #d6943c;
+    --primary-color-light: #b67724;
     --secondary-color: #ff7675;
     --background-dark-color: #F1F1F1;
     --background-dark-grey: #e4e4e4;
-    --border-color: #cbced8;
+    --border-color: #c9a33b30;
     --background-light-color: #F1F1F1;
-    --background-light-color-2: rgba(3,127,255,.3);
+    --background-light-color-2: #b88c144c;
     --white-color: #151515;
     --font-light-color: #313131;
     --font-dark-color: #313131;
@@ -36,16 +36,16 @@ const GlopalStyle = createGlobalStyle`
     --scrollbar-bg-color: #383838;
     --scrollbar-thump-color: #6b6b6b;
     --scrollbar-track-color: #383838;
-    --trasparent : #007bff1f;
+    --trasparent : #c08a163c;
 }
 .dark-theme{
     
-    --primary-color: #007bff;
-    --primary-color-light: #057FFF;
+    --primary-color: #c98732;
+    --primary-color-light: #976018;
     --secondary-color: #6c757d;
-    --background-dark-color: #10121A;
-    --background-dark-grey: #191D2B;
-    --border-color: #2e344e;
+    --background-dark-color: #706120;
+    --background-dark-grey: #755e10;
+    --border-color: #c9a33b30;
     --background-light-color: #F1F1F1;
     --background-light-color-2: rgba(3,127,255,.3);
     --white-color: #FFF;
@@ -56,7 +56,7 @@ const GlopalStyle = createGlobalStyle`
     --scrollbar-bg-color: #383838;
     --scrollbar-thump-color: #6b6b6b;
     --scrollbar-track-color: #383838;
-    --trasparent : #007bff1f;
+    --trasparent : #c08a163c;
 }
 *{
     margin: 0;

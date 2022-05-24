@@ -89,16 +89,16 @@ const MainImgSection = styled.div`
             margin-left:0.2rem ;
             padding-left:0.2rem ;
         h4{
-            font-size: 1.3rem;
+            font-size: 1.2rem;
             span{
-            font-size: 1.3rem;
+            font-size: 1.2rem;
             }
         }
         .about-info {
            
             .info-title p{
             padding-right:5px ;
-            margin:10px 0 ;
+            margin:15px 0 ;
             font-weight: 800 ;
             
         }
