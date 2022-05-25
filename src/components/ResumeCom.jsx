@@ -40,12 +40,12 @@ const ResumeCom = () => {
                 </div>
                 <div className="resume-content ">
                     <ResumeItem 
-                        year={'2020 - 2022'} 
+                        year={'2017 - 2020'} 
                         title={'ماجستير عمارة داخلية'}
                         subTitle={'كلية الفنون الجميلة جامعة الاسكندريه'}
                     />
                     <ResumeItem 
-                        year={'2016 - 2019'} 
+                        year={'2012 - 2017'} 
                         title={'بكالوريوس تصميم داخلي '}
                         subTitle={'كلية التربية الأساسيه الكويت                        '}
                     />

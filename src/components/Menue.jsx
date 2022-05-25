@@ -18,15 +18,11 @@ const Menue = ({menueItem}) => {
                           <img src={item.image} />
                           <ul>
                             <li>
-                              <a href={item.link2} target="_blank"><GitHubIcon className='icon-portfolio'/></a>
-                            </li>
-                            <li>
                               <a href={item.link1} target="_blank"><LinkIcon  className='icon-portfolio'/></a>
                             </li>
                           </ul>
                         </div>
                         <h6>{item.title}</h6>
-                        <p>{item.text}</p>
                       </div>
                     </div>
                  
@@ -47,21 +43,25 @@ const MenueStyle = styled.div`
     background-color: var(--sidebar-dark-color) ;
     border-radius:5px ;
     p{
-      font-size:16px ;
+      font-size:17px ;
       
       padding:5px 10px  ;
     }
     h6{
-      font-size:22px ;
+      font-size:17px ;
+      font-weight: bold;
       padding-bottom:8px ;
       padding:5px 10px ;
       color:var(--white-color) ;
+      text-align: center;
     }
   
     .portfolio-img {
       border-radius:5px ;
       position:relative ;
-      
+      img{
+        height: 220px;
+      }
       &::before{
         content:"";
         position:absolute ;
@@ -75,7 +75,7 @@ const MenueStyle = styled.div`
         transform-origin:0 ;
        transform:scaleX(0);
        transition: all 0.5s ease-in-out ;
-       background-color: #191D2B ;
+       background-color: #6d5a06ce ;
       }
       &:hover{
         &::before{

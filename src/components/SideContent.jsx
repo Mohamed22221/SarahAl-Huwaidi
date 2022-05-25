@@ -28,9 +28,7 @@ export const SideContent = ({close}) => {
             <li className='nav-item' onClick={activeFunction}>
                 <NavLink onClick={close} to='/portfolio'>Portfolio</NavLink>
             </li>
-            <li className='nav-item' onClick={activeFunction}>
-                <NavLink onClick={close} to='/blogs' className="active-class">Blogs</NavLink>
-            </li>
+
             <li className='nav-item' onClick={activeFunction}>
                 <NavLink onClick={close} to='/contact' className="active-class">Contact</NavLink>
             </li>

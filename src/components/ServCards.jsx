@@ -45,18 +45,7 @@ const ServCards = () => {
             <h4>ورش مختلفه فنون يدوية </h4>
         </div>
 
-        <div className='item-card'>
-            <AspectRatioIcon className='icon-card' />
-            <h4> ورشه تحضيري من تصميمي</h4>
-           
 
-        </div>
-        <div className='item-card'>
-            <AspectRatioIcon className='icon-card' />
-            <h4> Book Markورشة صناعه </h4>
-           
-
-        </div>
         <div className='item-card'>
             <AspectRatioIcon className='icon-card' />
             <h4>ورشة  عجينة البالستر الروسية  تشكيل الورد</h4>

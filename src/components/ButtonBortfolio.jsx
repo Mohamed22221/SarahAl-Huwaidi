@@ -5,9 +5,9 @@ const ButtonBortfolio = ({Filter}) => {
   return (
    <LayoutCulame>
     <StyleButoon>
-         <button type='button' onClick={()=>Filter("All")}>All</button>
-        <button type='button' onClick={()=>Filter("React")}>React</button>
-        <button type='button' onClick={()=>Filter("Javascript")}>Javascript</button>
+        {/* <button type='button' onClick={()=>Filter("All")}>All</button>*/}
+        {/*<button type='button' onClick={()=>Filter("React")}>React</button>*/}
+        {/*<button type='button' onClick={()=>Filter("Javascript")}>Javascript</button>*/}
 
     </StyleButoon>
    </LayoutCulame>   

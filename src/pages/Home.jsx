@@ -51,8 +51,8 @@ const MainHome = styled.div`
       @media (max-width:1100px) {
         padding: 10px;
         top:50% ;
-        left:9% ;
-     transform:translate(-4%,-50%) ;
+        left:17% ;
+     transform:translate(-5%,-50%) ;
       }
       .apout-home {
         padding:10px 0 ;
@@ -64,7 +64,7 @@ const MainHome = styled.div`
         color:var(--white-color) ;
           @media (max-width:1100px) {
       
-            font-size: 35px ;
+            font-size: 25px ;
             padding: 15px 0;
     }
       span{

@@ -26,10 +26,10 @@ const ImgeSection = () => {
                 <Button title={"Download Cv"} />     
             </div>
             <div className='info'>
-                <p>سارة سعد مبارك حمود الهويدي</p>
-                <p> 1980/9/1</p>
+                <p>سارة سعد مبارك الهويدي</p>
+                <p> 1980/9/11</p>
                 <p>كويتية</p>
-                <p>الكويت / محافظة األحمدي</p>
+                <p>الكويت / محافظة الاحمدي</p>
                 <p>عربي & انجليزي & التركيه</p>
                  
             </div>
@@ -60,11 +60,11 @@ const MainImgSection = styled.div`
         margin-left:1rem ;
         padding-left:1rem ;
         h4 {
-        font-size:2.2rem ;
+        font-size:2rem ;
         color : var(--white-color);
         margin-bottom: 16px ;
         span{
-            font-size:2rem ;
+            font-size:1.5rem ;
             color:var(--primary-color)
         }
     }

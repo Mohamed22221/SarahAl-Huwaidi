@@ -43,7 +43,7 @@ const GlopalStyle = createGlobalStyle`
     --primary-color: #c98732;
     --primary-color-light: #976018;
     --secondary-color: #6c757d;
-    --background-dark-color: #706120;
+    --background-dark-color: #1b1f2e;
     --background-dark-grey: #755e10;
     --border-color: #c9a33b30;
     --background-light-color: #F1F1F1;
