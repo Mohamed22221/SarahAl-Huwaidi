@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components';
 import cv from "../img/cv.pdf"
-function PrimaryButton({title}) {
+function PrimaryButton({title ,sendEmail}) {
     return (
-        <PrimaryButtonStyled href={cv}>
+        <PrimaryButtonStyled href={cv} onClick={sendEmail}>
             {title}
             
         </PrimaryButtonStyled>

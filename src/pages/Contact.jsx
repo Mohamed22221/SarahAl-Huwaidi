@@ -1,13 +1,35 @@
 
 import  Button  from '../components/Button'
-import React from 'react'
+import React, { useRef, useState } from 'react'
 import styled from 'styled-components'
 import Title from '../components/Title'
 import {LayoutCulame, Layouts} from '../styles/Layouts'
 import PhoneIcon from '@mui/icons-material/Phone';
 import EmailIcon from '@mui/icons-material/Email';
 import AddLocationIcon from '@mui/icons-material/AddLocation';
+import emailjs from '@emailjs/browser';
 const Contact = () => {
+    const form = useRef();
+    const [Values , setValues] = useState({
+        FirstName : "" ,
+        Email :"",
+        subject :"",
+        Message:""
+    })
+   
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs.sendForm('service_jxun6ji', 'template_4mni53h', form.current, '_gMMwNlImuaHyLxGu')
+        .then((response) => {
+            console.log(response);
+            
+         }, (err) => {
+            console.log('FAILED...', err);
+         })
+       
+        }
+
   return (
     <Layouts>
     <Title title={'Contact'} span={'Contact me'} />  
@@ -15,25 +37,25 @@ const Contact = () => {
   <ContactStyle>
       <div className='left-contact'>
           <h4>Get in Touch</h4>
-          <form>
+          <form ref={form}>
               <div className='item-contact'>
                 <label>Enter Your Name*</label>
-                <input type="text"/>
+                <input type="text" value={Values.FirstName} onChange={(e) =>setValues({...Values , FirstName:e.target.value})} name="FirstName"/>
               </div>
               <div className='item-contact'>
                 <label>Enter Your Email*</label>
-                <input type="email" />
+                <input type="email" value={Values.Email} onChange={(e) =>setValues({...Values , Email:e.target.value})} name="Email" />
               </div>
               <div className='item-contact'>
                 <label>Enter Your subject*</label>
-                <input type="text"/>
+                <input type="text" value={Values.subject} onChange={(e) =>setValues({...Values , subject:e.target.value})} name="subject"/>
               </div>
               <div className='item-contact'>
                 <label>Enter Your Message*</label>
-                <textarea />
+                <textarea value={Values.Message} onChange={(e) =>setValues({...Values , Message:e.target.value})} name="Message"   />
               </div>
           </form>
-          <Button title="Send Mail"/>
+          <Button title="Send Mail" sendEmail={sendEmail}/>
       </div>
       <div className='right-content'>
           <div className='item-right'>
@@ -41,7 +63,7 @@ const Contact = () => {
             <div className='content-contact'>
                 <p>
                     Phone
-                    <a href='tel:01116798122'>96696637</a>
+                    <a href='tel:0096596696637'>0096596696637</a>
                 </p>
                 
             </div>
@@ -161,7 +183,7 @@ const ContactStyle = styled.div`
         }
             }
         }
-    }
+    
 
 `
 export default Contact
