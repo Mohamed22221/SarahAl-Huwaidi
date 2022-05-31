@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/SarahAl-Huwaidi/static/js/main.d71e7678.js",
+    "main.js": "/SarahAl-Huwaidi/static/js/main.7cd9fd3c.js",
     "static/js/787.5c0b2d12.chunk.js": "/SarahAl-Huwaidi/static/js/787.5c0b2d12.chunk.js",
     "static/media/project1.pdf": "/SarahAl-Huwaidi/static/media/project1.88158aee4cb75839e6ec.pdf",
     "static/media/project4.pdf": "/SarahAl-Huwaidi/static/media/project4.68b82baa4b971a876cb8.pdf",
@@ -19,10 +19,10 @@
     "static/media/img1.jpeg": "/SarahAl-Huwaidi/static/media/img1.4073de92f6612419bfce.jpeg",
     "static/media/img4.jpeg": "/SarahAl-Huwaidi/static/media/img4.a53a994188a8ebcd5e75.jpeg",
     "index.html": "/SarahAl-Huwaidi/index.html",
-    "main.d71e7678.js.map": "/SarahAl-Huwaidi/static/js/main.d71e7678.js.map",
+    "main.7cd9fd3c.js.map": "/SarahAl-Huwaidi/static/js/main.7cd9fd3c.js.map",
     "787.5c0b2d12.chunk.js.map": "/SarahAl-Huwaidi/static/js/787.5c0b2d12.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.d71e7678.js"
+    "static/js/main.7cd9fd3c.js"
   ]
 }
